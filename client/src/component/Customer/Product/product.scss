@@ -1,0 +1,51 @@
+@import '../../../setting';
+
+.col {
+    margin-bottom: 10px;
+    height: 600px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        height: inherit;
+
+        .card {
+            padding: 15px;
+            height: inherit;
+
+            &:hover {
+                img {
+                    position: relative;
+                    top: -10px;
+                }
+
+                .card-body {
+                    .card-title {
+                        color: $card-title-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : $width-lg) {
+    .col {
+        height: 500px;
+        flex: none;
+    }
+}
+
+@media only screen and (max-width : $width-md) {
+    .col {
+        height: 500px;
+        flex: none;
+
+        .card {
+            img {
+                width: 300px;
+                margin: 16px auto;
+            }
+        }
+    }
+}

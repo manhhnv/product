@@ -1,0 +1,31 @@
+@import '../../../setting';
+
+.detail-wapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    .detail-left{
+        flex-basis: 60%;
+        .card-img{
+            padding: 50px;
+            width : 60%;
+            margin: 0 auto;
+        }
+    }
+
+    .detail-right{
+        flex-basis: 38%;
+    }
+}
+
+@media only screen and (max-width : $width-lg) {
+    .detail-wapper{
+        flex-direction: column;
+        .detail-left{
+            margin-bottom: 10px;
+        }
+    }
+}
+

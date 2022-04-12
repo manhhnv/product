@@ -1,0 +1,36 @@
+.total-wapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    .total-item{
+        display: flex;
+        justify-content: space-between;
+        .item-red{
+            color: red;
+        }
+        
+    }
+    span{
+        font-weight: bold;
+    }
+    .total-payload-method{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        div{
+            border:1px solid #ccc;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            background: #ccc;
+            &:hover{
+                background: rgb(71, 214, 71);
+                color: white;
+            }
+        }
+        .success{
+            background: rgb(71, 214, 71);
+            color: white;
+        }
+    }
+}

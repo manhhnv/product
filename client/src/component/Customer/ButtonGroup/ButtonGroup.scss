@@ -1,0 +1,36 @@
+@import '../../../setting';
+
+.add-cart{
+    background-color: $start-color !important;
+    border: 1px solid $start-color !important;
+    margin-bottom: 10px;
+    width: 100%;
+    &:hover, &:active{
+        border: 1px solid $start-color;
+        background-color: $start-color;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.btn-wapper{
+    display: flex;
+    justify-content: space-between;
+    button{
+        flex-basis: 49%;
+    }
+}
+
+.success-toast{
+    position: fixed !important;
+    top:10%;
+    right: 5px;
+    width: max-content;
+    .toast-body{
+        color:white;
+    }
+}
+
+
+

@@ -1,0 +1,33 @@
+@import '../../../setting';
+
+.slide-img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    color: #cb2525 !important;
+    font-weight: bold;
+    /* font-size: 20px; */
+    text-align: center;
+    width: max-content;
+    background: #607d8b;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width : $width-lg) {
+    .slide-img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : $width-md) {
+    .carousel-caption{
+        font-size: 14px;
+    }
+}
+
+
+

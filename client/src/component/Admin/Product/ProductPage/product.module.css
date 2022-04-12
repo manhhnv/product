@@ -1,0 +1,17 @@
+.img_product{
+    min-width : 60px;
+    max-width: 100px;
+    border-radius: 5px;
+}
+.actions{
+    align-content: center;
+}
+
+@media only screen and (max-width : 768px ) {
+    .img_product{
+        max-width: 50px;
+    }
+    .actions{
+        flex-direction: column;
+    }
+}

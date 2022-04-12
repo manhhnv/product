@@ -1,0 +1,19 @@
+@import './setting';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font_letter;
+}
+
+.active{
+    background: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    .navbar-text{
+        color: red;
+    }
+
+}
+

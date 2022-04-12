@@ -1,0 +1,45 @@
+@import '../../../setting';
+
+
+.Order-container{
+    margin-bottom: 30vh;
+}
+.order-title{
+    margin-top: 10px;
+}
+
+.order-empty{
+    width: 60%;
+    height:40vh;
+    margin: 25vh auto;
+    border: 1px solid #ccc;
+    background: #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px $start-color;
+    text-align: center;
+    padding: 13vh 0;
+}
+
+.order-content {
+    display: flex;
+}
+.order-right {
+    flex-basis:40% ;
+    margin: 10px 0 10px 20px;
+    .order-right-title{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width : $width-lg) {
+    .order-content{
+        flex-direction: column;
+        .order-right{
+            margin: 20px 0;
+        }
+    }
+}
+ 
+
+

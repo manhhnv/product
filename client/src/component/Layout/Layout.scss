@@ -1,0 +1,50 @@
+@import '../../setting';
+
+
+.layout-container{
+    width: 50vw;
+    margin: 200px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 2px 3px 3px #ccc;
+
+    .layout-left{
+        font-family: $font_family !important;
+        background: url('../../image/backgroudlayout.jpeg') no-repeat;
+        background-position: right;
+        background-size: cover;
+        flex: 1;
+        padding: 10% 0;
+        font-size: 20px;
+    }
+
+    .layout-right{
+        flex: 1;
+        padding: 20px;
+        
+        .my-3{
+            display: flex;
+            align-items: center;
+
+            .form-label{
+                width: 100px;
+                padding: 6px;
+                text-align: left;
+            }
+
+            .form-control{
+                flex: 1;
+            }
+        }
+    }
+}
+
+.bottom-container{
+    margin-top: 15px;
+}
+
+.btn-bottom {
+
+}

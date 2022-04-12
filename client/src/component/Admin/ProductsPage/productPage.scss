@@ -1,0 +1,70 @@
+@import '../../../setting';
+
+.btn-plus{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 50px;
+    border:1px solid #000;
+    
+    &:hover{
+        border:1px solid #000;
+    }
+    &:active{
+        border:1px solid #000;
+    }
+    .plus-icon{
+        color : red;
+    }
+}
+.spinner-product{
+    text-align: center;
+}
+
+.table-product{
+    overflow-x: auto;
+}
+
+.produce-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    .produce-link{
+        text-decoration: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 5px 10px;
+        font-size: 16px;
+        color:rgb(37, 153, 207);
+
+        &:hover{
+            background-color: #ccc;
+        }
+        &:active{
+            background-color: #ccc;
+        }
+    }
+
+    .active{
+        background-color: #ccc;
+    }
+}
+
+.title-product{
+    width: max-content;
+    margin: 200px auto;
+    background: rgb(170, 27, 27);
+    padding: 20px;
+    border-radius: 20px;
+    color:#ccc;
+}
+
+.product-toast{
+    position: fixed;
+    top:10%;
+    right:2%;
+    width: max-content;
+}

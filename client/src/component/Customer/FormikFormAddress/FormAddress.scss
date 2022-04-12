@@ -1,0 +1,29 @@
+@import '../../../setting';
+
+.form-address {
+
+    .error-message {
+        text-align: center;
+        color: red;
+    }
+
+    .form-address-group{
+        display: flex;
+        margin-top: 10px;
+        label{
+            flex-basis: 20%;
+            font-weight: bold;
+        }
+        input{
+            flex: 1;
+        }
+        .form-address-outline{
+            outline: 2px solid red;
+         }
+    }
+}
+
+
+
+
+

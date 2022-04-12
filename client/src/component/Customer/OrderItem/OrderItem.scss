@@ -1,0 +1,54 @@
+@import '../../../setting';
+
+.order-item-wapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    .order-item-img {
+        img{
+            width: 100px  !important;
+        }
+    }
+    .order-item-text{
+        display: flex;
+        justify-content: center;
+        h6{
+            margin-right: 10px;
+        }
+        .order-text-child {
+            display: flex;
+            align-items: center;
+            p{
+                &:not(:last-child) {
+                    margin-right:10px;
+                }
+            }
+            .item-text-red{
+                color: rgb(234, 45, 45);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : $width-lg) {
+    .order-item-wapper{
+        width: 100%;
+        .order-item-text{
+            flex-direction: column;
+            .order-text-child{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : $width-sm) {
+    .item-text-red{
+        display: none;
+    }
+}
